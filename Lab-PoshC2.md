@@ -34,7 +34,7 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
    
 - Instalar las dependiencias y configurar lo necesario para ejecutar el C2
 - Cuando todo esté instalado correctamente, confgurar el servidor C2, considerando ngrok como proxy o tunnel 
-- Ñ
+
 3. **Configuración** Utilice, los siguientes comandos  para configuración:
 
     ```
@@ -55,7 +55,8 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
 
     KillDate -> Fecha max que quieres que dure el beacon.
     ```
-![image](https://user-images.githubusercontent.com/50930193/180669002-8465e078-30a2-4af0-ade9-8217b1d27032.png)
+    ![image](https://user-images.githubusercontent.com/50930193/180669019-8b67e91d-c694-442d-be1d-ee7a726b4950.png)
+
 
 
 - En el parametro PayloadCommsHost se deberá  reemplazar por la url de ngrok
