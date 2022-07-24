@@ -10,10 +10,27 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
 
 ### SOLUCIÓN:
 
-- Instalar PoshC2 en el equipo que ejecuta Kali Linux mediante la siguiente línea de comandos :
+- **Pre-requisito** (Tener Kali actualizado) si no se podrían presentar errores de dependencias:
 
    ```
-   curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
+   # Instalación en Kali 
+   
+   sudo apt update && sudo apt -y full-upgrade -y
+   ```
+
+- **Instalación** Instalar PoshC2 en el equipo que ejecuta Kali Linux mediante la siguiente línea de comandos :
+
+   ```
+   # Instalación en Kali (disponible desde el 14 de Julio del 2022): 
+   $ sudo apt install posch c2
+   
+   # Instalación de manera local: 
+   $ curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
+
+   # Instalación en docker:
+   $ apt install docker docker.io
+   $ curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install-for-Docker.sh | sudo bash
+      curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
    ```
    
 - Instalar las dependiencias y configurar lo necesario para ejecutar el C2
