@@ -23,7 +23,7 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
 
    ```
    # Instalación en Kali (disponible desde el 14 de Julio del 2022): 
-   $ sudo apt install posch c2
+   $ sudo apt install poshc2
    
    # Instalación de manera local: 
    $ curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
