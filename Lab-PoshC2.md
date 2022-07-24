@@ -11,7 +11,7 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
 
 ### SOLUCIÓN:
 
-- **Pre-requisito** (Tener Kali actualizado) si no se podrían presentar errores de dependencias:
+1. **Pre-requisito** (Tener Kali actualizado) si no se podrían presentar errores de dependencias:
 
    ```
    # Instalación en Kali 
@@ -19,7 +19,7 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
    $ sudo apt update && sudo apt -y full-upgrade -y
    ```
 
-- **Instalación** Instalar PoshC2 en el equipo que ejecuta Kali Linux mediante la siguiente línea de comandos :
+2. **Instalación** Instalar PoshC2 en el equipo que ejecuta Kali Linux mediante la siguiente línea de comandos :
 
    ```
    # Instalación en Kali (disponible desde el 14 de Julio del 2022): 
@@ -34,6 +34,18 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
    
 - Instalar las dependiencias y configurar lo necesario para ejecutar el C2
 
+3. **Configuración** Utilice, los siguientes comandos  para configuración:
+
+    ```
+    # Creación de proyectos:
+    $ sudo posh-project -n <nombre_proyecto>
+    ```
+   ![image](https://user-images.githubusercontent.com/50930193/180668548-0af7946d-b92f-48b5-94b7-d00e3c7d65fc.png)
+   
+   ```
+    # Configuración:
+    $ sudo posh-config # se abrirá en el editor por defecto (vim en su mayoria)
+    ```
     
 - Cuando todo esté instalado correctamente, confgurar el servidor C2, considerando ngrok como proxy o tunnel 
 - En el parametro PayloadCommsHost se deberá  reemplazar por la url de ngrok
