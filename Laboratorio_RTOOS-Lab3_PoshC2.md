@@ -1,4 +1,5 @@
 ## Lab3: C2 - PoshC2
+![image](https://user-images.githubusercontent.com/50930193/180666195-537fb36c-88bf-4926-b0d4-fc18e36b06ab.png)
 
 **Descripción**
 
