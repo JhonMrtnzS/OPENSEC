@@ -55,8 +55,14 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
 
     KillDate -> Fecha max que quieres que dure el beacon.
     ```
+    
+    Con kali directamente
     ![image](https://user-images.githubusercontent.com/50930193/180669019-8b67e91d-c694-442d-be1d-ee7a726b4950.png)
 
+    Con ngrok
+    ```
+    $./ngrok http 8080 --scheme=http
+    ```
 
 
 - En el parametro PayloadCommsHost se deberá  reemplazar por la url de ngrok
