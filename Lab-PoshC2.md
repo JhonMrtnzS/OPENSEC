@@ -31,7 +31,11 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
    # Instalación en docker:
    $ apt install docker docker.io
    ```
-   
+  ![image](https://user-images.githubusercontent.com/50930193/180670874-a44f63a7-866f-4423-8871-8089d206bdcc.png)
+  ...
+  ![image](https://user-images.githubusercontent.com/50930193/180671002-ea668940-1e65-4878-aef9-41d2ce4329e6.png)
+
+  
 - Instalar las dependiencias y configurar lo necesario para ejecutar el C2
 - Cuando todo esté instalado correctamente, confgurar el servidor C2, considerando ngrok como proxy o tunnel 
 
