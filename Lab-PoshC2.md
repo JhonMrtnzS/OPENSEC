@@ -33,7 +33,8 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
    ```
    
 - Instalar las dependiencias y configurar lo necesario para ejecutar el C2
-
+- Cuando todo esté instalado correctamente, confgurar el servidor C2, considerando ngrok como proxy o tunnel 
+- Ñ
 3. **Configuración** Utilice, los siguientes comandos  para configuración:
 
     ```
@@ -46,8 +47,17 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
     # Configuración:
     $ sudo posh-config # se abrirá en el editor por defecto (vim en su mayoria)
     ```
+    Dentro de la configuración se cambiaran 2 parametros generalmente:
+    ```
+    BindPort: -> Puerto de escucha en Kali o bien que apunte a ngrok
     
-- Cuando todo esté instalado correctamente, confgurar el servidor C2, considerando ngrok como proxy o tunnel 
+    PayloadCommsHost -> url de tu maquina escucha (ip de tu kali o tu ngrok).
+
+    KillDate -> Fecha max que quieres que dure el beacon.
+    ```
+![image](https://user-images.githubusercontent.com/50930193/180669002-8465e078-30a2-4af0-ade9-8217b1d27032.png)
+
+
 - En el parametro PayloadCommsHost se deberá  reemplazar por la url de ngrok
    ```
    # ngrok http 8080
