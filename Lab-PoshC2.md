@@ -67,13 +67,13 @@ El laboratorio tiene por objetivo, establecer un Centro de Comando y Control (C2
     ![image](https://user-images.githubusercontent.com/50930193/180670322-011c32ee-e8f0-4cad-8122-21db21b883f8.png)
 
 
+4. **Ejecutar el Servidor PoschC2** en una ventana de terminal ejecutar el servidor : 
+     ```
+     $ posh-server
+     ```
+     ![image](https://user-images.githubusercontent.com/50930193/180675176-76da3ace-6ffb-4769-a639-b478aa4b40ff.png)
 
-- En una ventana de terminal ejecutar el servidor : 
-     ```
-     posh-server
-     ```
-     
-- En otra ventana o pestaña de terminal ejecute el cliente o Implant Manager : 
+     En otra ventana o pestaña de terminal ejecute el cliente o Implant Manager : 
      ```
      posh
      ```
